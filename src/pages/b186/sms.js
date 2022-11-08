@@ -2,13 +2,15 @@ import React from 'react';
 import Layout from '@theme/Layout';
 import { useForm, ValidationError } from '@formspree/react';
 
-export default function Consent() {
+export default function SMS() {
 
   const [state, handleSubmit] = useForm("mgeqrkpr");
 
   return (
     <div className="main-bg margin-top-none">
-      <Layout>
+      <Layout
+        title="eMarka B186 Ticari SMS Şikayet Sistemi"
+        >
         <header>
           <div class="hero shadow--lw">
             <div class="container">

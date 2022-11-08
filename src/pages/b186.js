@@ -7,7 +7,9 @@ export default function B186() {
 
   return (
     <div className="main-bg margin-top-none">
-      <Layout>
+      <Layout
+        title="B186 Nedir? - eMarka SMS İptal Servisi"
+        >
         <header>
           <div class="hero shadow--lw">
             <div class="container">
@@ -23,7 +25,7 @@ export default function B186() {
               </p>
               <div>
                 <Link
-                  to="/consent"
+                  to="/b186/sms"
                   class="button button--danger button--outline button--lg">
                   SMS Şikayet ve İptal Formu
                 </Link>
