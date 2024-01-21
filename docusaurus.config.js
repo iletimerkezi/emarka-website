@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'eMarka İletişim - İleti Merkezi',
-  tagline: 'Toplu SMS, SMS Marketing, SMS, email, e-mail, toplu email, toplu mesaj, gonder, emarka, e-marka, istanbul, bulk sms, mobile message, messaging, message, SMS Gateway, OTP',
+  tagline: 'SMS API, Toplu SMS, SMS Marketing, SMS, email, e-mail, toplu email, toplu mesaj, gonder, emarka, e-marka, istanbul, bulk sms, mobile message, messaging, message, SMS Gateway, OTP',
   url: 'https://www.emarka.com.tr',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -40,6 +40,11 @@ const config = {
         // },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
+        },
+        gtag: {
+          trackingID: 'G-JPM372TD44',
+          // Optional fields.
+          anonymizeIP: true, // Should IPs be anonymized?
         },
       }),
     ],
