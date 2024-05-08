@@ -1,0 +1,19 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//iPhone OS 17.4.1//EN
+N:ALP;Serkan;;;
+FN:Serkan ALP
+ORG:eMarka İletişim A.Ş.;
+TITLE:Co-Founder & Product / Finance
+EMAIL;type=INTERNET;type=WORK;type=pref:serkan@emarka.com.tr
+TEL;type=WORK;type=VOICE;type=pref:0 (212) 543 42 10
+TEL;type=CELL;type=VOICE:0 (533) 312 83 20
+item1.ADR;type=WORK;type=pref:;;Halkalı Merkez Mah.\nFatih Cad. Serenity Plus Office B-Blok Kat:4 D:42;İsranbul;Küçükçekmece;34303;Türkiye
+item1.X-ABADR:tr
+X-SOCIALPROFILE;type=twitter:http://twitter.com/salp
+X-SOCIALPROFILE;type=linkedin;x-displayname=SERKAN ALP:HTT:http://www.linkedin.com/in/SERKANALP
+item2.URL;type=pref:https://www.emarka.com.tr
+item2.X-ABLabel:eMarka
+item3.URL:https://www.iletimerkezi.com
+item3.X-ABLabel:iletiMerkezi
+END:VCARD
